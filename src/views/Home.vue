@@ -104,7 +104,7 @@ export default {
           id: 9,
           title: "Platter",
           image: "platter.jpg",
-          price: "0,50",
+          price: "7,50",
           type: "Entrantes",
           added: true,
           new: false
@@ -113,7 +113,7 @@ export default {
           id: 10,
           title: "Spicy soup",
           image: "spicy-soup.jpg",
-          price: "0,50",
+          price: "4,50",
           type: "Sopas",
           added: true,
           new: false
