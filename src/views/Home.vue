@@ -181,7 +181,7 @@ main {
   width: 100vw;
   background: #eee;
   position: relative;
-  margin-top: 13rem;
+  margin-top: 11rem;
   padding-top: 10vh;
   margin-left: 0.2rem;
 }

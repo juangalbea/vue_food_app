@@ -60,7 +60,7 @@ body {
 }
 
 #logo img {
-  width: 10rem;
+  width: 8rem;
   margin: 1rem 0;
 }
 
@@ -92,7 +92,7 @@ header {
 }
 
 header {
-  height: 10.2rem;
+  height: 8rem;
 }
 
 #nav a:hover {
