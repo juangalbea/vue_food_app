@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header v-bind:counter="counter" v-bind:food="food" v-on:select-food="selectFood"/>
+    <Header v-bind:counter="counter" v-bind:food="food" v-on:select-food="selectFood" />
     <main>
       <div id="main">
         <div id="entrantes">
@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       counter: 0,
-      food: 'Platos',
+      food: "Platos",
       meals: [
         {
           id: 1,
@@ -69,7 +69,7 @@ export default {
           title: "Caprese Salad",
           image: "caprese.jpg",
           price: "5,50",
-          type: "Entrantes",
+          type: "Ensaladas",
           added: true,
           new: true
         },
@@ -78,11 +78,11 @@ export default {
           title: "Cereals",
           image: "cereals.jpg",
           price: "4,50",
-          type: " postres",
+          type: "Postres",
           added: true,
           new: false
         },
-                {
+        {
           id: 7,
           title: "Falafel",
           image: "falafel.jpg",
@@ -117,6 +117,186 @@ export default {
           type: "Sopas",
           added: true,
           new: false
+        },
+        {
+          id: 11,
+          title: "Borscht",
+          image: "borscht.jpg",
+          price: "4,50",
+          type: "Sopas",
+          added: true,
+          new: true
+        },
+        {
+          id: 12,
+          title: "Italian burguer",
+          image: "italian-burger.jpg",
+          price: "7,50",
+          type: "Principales",
+          added: true,
+          new: false
+        },
+        {
+          id: 13,
+          title: "Lasagna",
+          image: "lasagna.jpg",
+          price: "6,50",
+          type: "Principales",
+          added: true,
+          new: true
+        },
+        {
+          id: 14,
+          title: "Macaroons",
+          image: "macaroons.jpg",
+          price: "4,50",
+          type: "Postres",
+          added: true,
+          new: true
+        },
+        {
+          id: 15,
+          title: "Noodle soup",
+          image: "noodle-soup.jpg",
+          price: "5,50",
+          type: "Sopas",
+          added: true,
+          new: true
+        },
+        {
+          id: 16,
+          title: "Pad thai",
+          image: "pad-thai.jpg",
+          price: "7,50",
+          type: "Principales",
+          added: true,
+          new: false
+        },
+        {
+          id: 17,
+          title: "Paella",
+          image: "paella.jpg",
+          price: "6,50",
+          type: "Principales",
+          added: true,
+          new: true
+        },
+        {
+          id: 18,
+          title: "Pakcake",
+          image: "pancake.jpg",
+          price: "3,50",
+          type: "Postres",
+          added: true,
+          new: false
+        },
+        {
+          id: 19,
+          title: "Panzanella",
+          image: "panzanella.jpg",
+          price: "5,50",
+          type: "Ensaladas",
+          added: true,
+          new: false
+        },
+        {
+          id: 20,
+          title: "Pasta pesto",
+          image: "pasta-pesto.jpg",
+          price: "4,50",
+          type: "Principales",
+          added: true,
+          new: false
+        },
+        {
+          id: 21,
+          title: "Pepper olives pizza",
+          image: "pepper-olive-pizza.jpg",
+          price: "5,50",
+          type: "Principales",
+          added: true,
+          new: true
+        },
+        {
+          id: 22,
+          title: "Pizza Napolitana",
+          image: "pizza-napolitana.jpg",
+          price: "5,50",
+          type: "Principales",
+          added: true,
+          new: false
+        },
+        {
+          id: 23,
+          title: "Pomegranate",
+          image: "pomegranate.jpg",
+          price: "2,50",
+          type: "Postres",
+          added: true,
+          new: true
+        },
+        {
+          id: 24,
+          title: "Prawns",
+          image: "prawn.jpg",
+          price: "6,50",
+          type: "Entrantes",
+          added: true,
+          new: true
+        },
+        {
+          id: 25,
+          title: "Raspberry",
+          image: "raspberry.jpg",
+          price: "3,50",
+          type: "Postres",
+          added: true,
+          new: true
+        },
+        {
+          id: 26,
+          title: "Mix salad leaf",
+          image: "salad-leaf.jpg",
+          price: "4,50",
+          type: "Ensaladas",
+          added: true,
+          new: false
+        },
+        {
+          id: 27,
+          title: "Salmon",
+          image: "salmon.jpg",
+          price: "6,50",
+          type: "Principales",
+          added: true,
+          new: true
+        },
+        {
+          id: 28,
+          title: "Scampi",
+          image: "scampi.jpg",
+          price: "5,50",
+          type: "Entrantes",
+          added: true,
+          new: false
+        },
+        {
+          id: 29,
+          title: "Thai salad",
+          image: "thai-salad.jpg",
+          price: "5,50",
+          type: "Ensaladas",
+          added: true,
+          new: false
+        },
+        {
+          id: 30,
+          title: "Viet soup",
+          image: "viet-soup.jpg",
+          price: "4,50",
+          type: "Sopas",
+          added: true,
+          new: false
         }
       ]
     };
@@ -133,7 +313,6 @@ export default {
 </script>
 
 <style>
-
 * {
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Roboto Condensed", sans-serif;
