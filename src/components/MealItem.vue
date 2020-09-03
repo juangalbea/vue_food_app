@@ -10,7 +10,7 @@
         </div>
         <div class="price">
           <p>+ {{meal.price}} €</p>
-          <button @click="$emit('add-meal', meal.id)" class="plus add">+</button>
+          <button @click="$emit('add-meal', meal.id)" class="plus add pointer">+</button>
         </div>
       </div>
     </div>
@@ -77,6 +77,11 @@ export default {
   box-shadow: 10px 10px 20px #ccc;
   transform: translate(0px, -4px);
 }
+
+.pointer {
+  cursor: pointer;
+  outline: none;
+  }
 
 .plus {
   color: #64d1b7;

@@ -183,7 +183,7 @@ export default {
         },
         {
           id: 18,
-          title: "Pakcake",
+          title: "Pancake",
           image: "pancake.jpg",
           price: "3,50",
           type: "Postres",
