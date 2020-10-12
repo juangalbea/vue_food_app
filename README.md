@@ -1,4 +1,4 @@
-# problem2
+# Foodies
 
 ## Project setup
 ```
